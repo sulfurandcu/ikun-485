@@ -14,8 +14,8 @@ ikun-485 making it easier to use 485 as a console. 😎
  * tx_lvl: choose high/low level for tx. 1=high, 0=low.
  * tx_dly: delay for a little while after switching to tx mode. (typically 10us.)
  */
-rt_err_t ik485_create(const char *ik485_name, const char *serial_name,
-                      rt_base_t tx_pin, rt_int32_t tx_lvl, rt_int32_t tx_dly);
+ik485_device_t *ik485_create(const char *ik485_name, const char *serial_name,
+                             rt_base_t tx_pin, rt_int32_t tx_lvl, rt_int32_t tx_dly);
 ```
 
 ### ik485_delete
