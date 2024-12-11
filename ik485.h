@@ -27,7 +27,7 @@ typedef struct ik485_device
 } ik485_device_t;
 
 // tx_delay: typical value is 10us.
-rt_err_t ik485_create(const char *ik485_name, const char *serial_name, rt_base_t tx_pin, rt_int32_t tx_level, rt_int32_t tx_delay);
+ik485_device_t *ik485_create(const char *ik485_name, const char *serial_name, rt_base_t tx_pin, rt_int32_t tx_level, rt_int32_t tx_delay);
 rt_err_t ik485_delete(ik485_device_t *ik485);
 
 #endif
