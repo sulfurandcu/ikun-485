@@ -2,7 +2,7 @@
 
 iKUN Keeps Users away from low-level implementatioNs.
 
-ikun-485 making it easier to use 485 as a console. 😎
+ikun-485 makes it easier to use 485 as a console. 😎
 
 ![](assets/arch.png)
 
