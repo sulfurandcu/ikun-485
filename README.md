@@ -1,5 +1,7 @@
 # ikun-485
 
+ikun keep u naive.
+
 ikun-485 making it easier to use 485 as a console. 😎
 
 ![](assets/arch.png)
