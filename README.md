@@ -1,6 +1,6 @@
 # ikun-485
 
-ikun keep u naive.
+iKUN Keeps Users away from low-level implementatioNs.
 
 ikun-485 making it easier to use 485 as a console. 😎
 
