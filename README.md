@@ -10,7 +10,7 @@ ikun-485 makes it easier to use 485 as a console. 😎
 
 ### ik485_create
 
-```
+```c
 /**
  * tx_pin: switch rx/tx mode.
  * tx_lvl: choose high/low level for tx. 1=high, 0=low.
@@ -22,13 +22,13 @@ ik485_device_t *ik485_create(const char *ik485_name, const char *serial_name,
 
 ### ik485_delete
 
-```
+```c
 rt_err_t ik485_delete(ik485_device_t *ik485);
 ```
 
 ## Example
 
-```
+```c
 #define RT_CONSOLE_DEVICE_NAME "ik485"
 
 
