@@ -1,7 +1,7 @@
-/*
- * Copyright (c) 2024, RT-Thread Development Team
+/**
+ * Copyright (c) 2024, sulfurandcu.github.io
  *
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: MIT
  *
  * Change Logs:
  * Date             Author              Notes
